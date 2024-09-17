@@ -19,7 +19,7 @@ app.use(express.static('public'));
 app.use('/', blogRoutes);
 
 // Start the server
-const PORT = process.env.APP_PORT || 3000;
+const PORT = process.env.APP_PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
